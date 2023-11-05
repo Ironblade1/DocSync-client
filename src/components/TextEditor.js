@@ -5,7 +5,7 @@ import io from 'socket.io-client';
 import { useParams } from 'react-router-dom';
 
 // const HEROKU_ADD = 'https://google-docs-clone-server-side.herokuapp.com/';
-const HEROKU_ADD= 'http://localhost:3001'
+const HEROKU_ADD= 'https://docsync-server-w3s5.onrender.com/'
 
 const TOOLBAR_OPTIONS = [
   [{ header: [1, 2, 3, 4, 5, 6, false] }],
